@@ -16,4 +16,9 @@ public class Main {
         // get the prize toy
         try {
             store.getPrizeToy();
+        } catch (IOException e) {
+            // Обработка исключения, например, вывод сообщения об ошибке
+            e.printStackTrace();
         }
+    }
+}
